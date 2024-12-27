@@ -1,0 +1,14 @@
+.all_products_pagination,
+.track_order_form,
+.edit_profile_form {
+
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.profile_image,
+.profile_info {
+
+    text-align: center;
+}

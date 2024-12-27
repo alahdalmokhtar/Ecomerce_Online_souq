@@ -1,0 +1,144 @@
+/* Styling voor de hele pagina */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+/* Styling voor de achtergrondsectie */
+section.bg-dark {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #ffffff;
+}
+
+/* Styling voor de kaart */
+.card {
+    border: none;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Styling voor de kaarttekst */
+.card .card-title {
+    font-weight: bold;
+    color: #343a40;
+}
+
+.card p {
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+/* Styling voor de invoervelden */
+.card .form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+.card .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Styling voor de knoppen */
+.card .btn {
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.card .btn-primary {
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.card .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.card .btn-info {
+    background-color: #17a2b8;
+    border: none;
+    color: #fff;
+}
+
+.card .btn-info:hover {
+    background-color: #117a8b;
+}
+
+.card .btn-block {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Tekst scheidingslijn met 'OR' */
+.card .text-muted span {
+    display: inline-block;
+    position: relative;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 10px;
+    background: #fff;
+    color: #6c757d;
+    z-index: 1;
+}
+
+.card .text-muted span::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #ced4da;
+    z-index: -1;
+    transform: translateY(-50%);
+}
+
+/* Responsive aanpassing */
+@media (max-width: 768px) {
+    section.bg-dark {
+        background-attachment: scroll;
+    }
+}
+
+
+.all_products_pagination {
+    margin: 0 auto;
+
+}
+
+.login_form {
+    margin: 0 auto;
+}
+
+.forget_password_form {
+    margin: 0 auto;
+
+}
+
+.rest_password_form.form-group {
+    margin: 0 auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+
+    background-color: #f5f5f5;
+
+}
+
+.rest_password_form .form-control {
+    margin: 0 auto;
+}
