@@ -8,7 +8,8 @@
 }
 
 .profile_image,
-.profile_info {
+.profile_info,
+.order_succes_info {
 
     text-align: center;
 }
