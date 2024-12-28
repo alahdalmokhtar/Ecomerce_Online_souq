@@ -1,5 +1,4 @@
 .all_products_pagination,
-.track_order_form,
 .edit_profile_form {
 
     margin: 0 auto;
@@ -7,9 +6,21 @@
 
 }
 
+.track_form-group,
+.track_order_form {
+    margin: 0 auto;
+
+}
+
 .profile_image,
 .profile_info,
-.order_succes_info {
+.order_succes_info,
+.review_info {
 
     text-align: center;
+}
+
+.review_info {
+    width: 150px;
+    height: 150px;
 }
